@@ -1,0 +1,9 @@
+name: wahieb
+build: 
+  tg:
+    context: . 
+dev: 
+  tg:
+    command: bash run.sh
+deploy:
+  - okteto exec 
